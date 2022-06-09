@@ -1,5 +1,5 @@
 {
-  "name": "just-tech-news",
+  "name": "newsfeed-api",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -8,24 +8,16 @@
     "start": "node server.js",
     "seeds": "node seeds/index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/katyajuliet/just-tech-news.git"
-  },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/katyajuliet/just-tech-news/issues"
-  },
-  "homepage": "https://github.com/katyajuliet/just-tech-news#readme",
   "dependencies": {
-    "bcrypt": "^5.0.1",
-    "dotenv": "^16.0.1",
-    "express": "^4.18.1",
-    "heroku": "^7.30.1",
-    "jest": "^28.1.1",
-    "mysql2": "^2.3.3",
-    "sequelize": "^6.20.1"
+    "bcrypt": "^4.0.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.21.5"
+  },
+  "devDependencies": {
+    "jest": "^25.1.0"
   }
 }
